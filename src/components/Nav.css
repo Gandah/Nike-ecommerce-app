@@ -1,0 +1,35 @@
+nav li::after{
+    content: "";
+    position: absolute;
+    inset-inline: -1rem;
+	inset-block-end: -0.20rem;
+	block-size: 1px;
+    background: coral;
+    will-change: all;
+    translate: var(--_transalte, 0);
+    scale: var(--_width, 0) 1;
+    transition: 
+    scale 250ms var(--_scale-delay, 0ms), 
+    translate 350ms;
+}
+
+
+nav li:hover{
+    --_width: 1;
+    --_translate: 0;
+	--_scale-delay: 0ms;
+}
+
+
+nav li:hover ~ li{
+    --_translate: -100%;
+    --scale-delay: 200ms;
+
+}
+
+nav:hover li{
+    --_translate: 100%;
+    --scale-delay: 300ms; 
+}
+    
+
