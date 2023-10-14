@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/Gandah/Nike-ecommerce-app.git)
-- Live Site URL: [Visit Site](./)
+- Live Site URL: [Visit Site](https://nike-ecommerce-app-omega.vercel.app/)
 
 ### Built with
 
@@ -43,6 +43,8 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind Css](https://tailwindcss.com/) - Css framework
+- framer-motion
+- React icons
 
 ### Continued development
 
