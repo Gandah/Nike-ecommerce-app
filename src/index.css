@@ -5,11 +5,54 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+:root{
+  --scrollLength: 100vh;
+  --scrollLink-color:#ff7f50;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+*:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  position:absolute;
+  top: var(--scrollLength);
+  bottom: 0;
+  right: 0;
+  margin-right: 2rem;
+  width: 3rem;
+  pointer-events: none;
+}
+
+.scroll-link{
+  top: calc(100vh - 5rem);
+  border: none;
+  background-color: scale-color(var(--scrollLink-color), var(--ligthness, 85%));
+  transition: transform 80ms ease-in;
+}
+
+.scroll-link:hover,
+scroll-link:focus {
+  transform:scale(1.1)
+}
+
+.scroll-link:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px scale-color(var(--scrollLink-color), var(--ligthness, 35%));
+}
+
+*,
+*::before,
+*::after{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 @layer components {
@@ -63,6 +106,7 @@
   .navigator-hover{
     @apply after:hover:scale-x-100 after:hover:scale-y-100
   } */
+
 }
 
 

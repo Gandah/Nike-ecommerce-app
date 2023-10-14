@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Code_Academy"
+		},
+		{
+			"path": "../../../../React-JS"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Python_pathlib"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Code_Academy"
+	}
+}

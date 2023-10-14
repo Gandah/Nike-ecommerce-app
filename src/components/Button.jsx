@@ -2,7 +2,8 @@
 const Button = ({ label, iconURL, backgroundColor, 
   textColor, borderColor, fullWidth }) => {
   return (
-    <button className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+    <button className={`flex justify-center items-center gap-2 px-7 py-4 border 
+    font-montserrat text-lg leading-none transition-all duration-300
     ${
       backgroundColor
         ? `${backgroundColor} ${textColor} ${borderColor} hover:text-coral-red`

@@ -24,11 +24,11 @@ const SuperQuality = () => {
           <Button label='View details' />
       </div>
     </div>
-    <div className="flex flex-1 justify-center items-center w-[570px] aspect-square">
+    <div className="flex flex-1 justify-center items-center max-w-[35.625rem] h-auto aspect-square">
       <img
         src={shoe8}
         alt="shoe8"
-        className="object-contain"
+        className="block max-w-[100%] object-contain"
         
       />
     </div>

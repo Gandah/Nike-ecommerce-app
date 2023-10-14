@@ -8,7 +8,7 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
     }}
 
   return (
-    <div className={`border-2 rounded-xl ${bigShoeImg === imgURL.bigShoe ?
+    <div className={`border-2 rounded-xl transition-all duration-300 cursor-pointer ${bigShoeImg === imgURL.bigShoe ?
     'border-coral-red': 'border-transparent'}`}
     onClick={handleClick}>
         <div className="flex justify-center items-center bg-card 

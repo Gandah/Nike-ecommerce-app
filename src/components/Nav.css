@@ -31,5 +31,9 @@ nav:hover li{
     --_translate: 100%;
     --scale-delay: 300ms; 
 }
+
+dialog::backdrop{
+   
+}
     
 
