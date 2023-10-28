@@ -1,12 +1,12 @@
-# Portfolio Project - Nike Shop
+# Portfolio Project - Nike Ecommerce Landing page
 
 
 ## Table of contents
 
-- [Portfolio Project - Nike Shop](#portfolio-project---nike-shop)
+- [Portfolio Project - Nike Ecommerce Landing page](#portfolio-project---nike-ecommerce-landing-page)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-    - [The challenge](#the-challenge)
+    - [Features](#features)
     - [Screenshot](#screenshot)
     - [Links](#links)
     - [Built with](#built-with)
@@ -16,23 +16,21 @@
 
 ## Overview
 
-### The challenge
+### Features
 
-Users should be able to:
+Users are able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Interact with Hero Shoe Card
 
 ### Screenshot
 
 ![Desktop](./screenshots/desktop.png)
 ![Mobile](./screenshots/mobile.png)
 
-
 ### Links
 
-- Solution URL: [Repo](https://github.com/Gandah/Nike-ecommerce-app.git)
+- GitHub Repo: [View Repo](https://github.com/Gandah/Nike-ecommerce-app.git)
 - Live Site URL: [Visit Site](https://nike-ecommerce-app-omega.vercel.app/)
 
 ### Built with
